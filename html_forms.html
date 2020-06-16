@@ -1,0 +1,45 @@
+<form action="#">
+    <fieldset>
+    <div>
+        <label for = "first_name">First Name</label>
+        <input id = "first_name"/>
+    </div>
+    <div>
+        <label for = "last_name">Last Name</label> 
+        <input id = "last_name" name="last_name" value="Lazos"/>
+    </div>
+    <div>
+        <!--two methods to write-->
+        <label>First Name
+            <input name="first_name2" placeholder="First Name" />
+        </label>
+    </div>
+    <div>
+        <label>Last Name
+            <input name="last_name2" />
+        </label>
+    </div>
+    <div>
+        <label><input type="radio" name="agree" id="yes" value="yes" checked/> yes</label>
+        <label><input type="radio" name="agree" id="No" value="no" /> No</label>
+    </div>
+    </fieldset> <!---groups a group of elements together-->
+    <label> Are you older than 21?
+        <input type="checkbox" name="older_than_21" value="yes">
+
+    </label>
+    <div>
+        <label for="favorite_child">My favorite Child</label>
+        <select name="favorite_child" id="favorite_child">
+            <option value="">---Please Select A Favorite Child ---</option>
+            <option value="olivia"> Olivia(First Born)</option>
+            <option value="Alle"> Alle (Second Born)</option>
+            <option selected value="Mark"> Mark</option>
+            <option value="Molly"> Molly</option>
+            <option value="Daisy"> Daisy</option>
+        </select>
+    </div>
+    <textarea name="long_text" cols="40" rows="8"></textarea> Type Something</textarea>
+    <button typ='submit'> submit </button>
+</form>
+
